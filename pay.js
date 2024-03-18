@@ -34,7 +34,7 @@ var submitButton = document.querySelector('.submit-button');
 
 // Добавляем обработчик события для клика по кнопке "Отправить"
 submitButton.addEventListener('click', function() {
-    if (lastBalance >= 200.00) {
+    if (lastBalance >= 20000.00) {
         // Обнуляем баланс в localStorage
         localStorage.setItem('balance', '0');
 
@@ -69,7 +69,7 @@ submitButton.addEventListener('click', function() {
         // Перенаправляем пользователя на главную страницу
         window.location.href = 'index.html';
     } else {
-        alert('Недостаточно средств на балансе для вывода.');
+        alert('Вывод пока что не доступен.');
     }
 });
 
