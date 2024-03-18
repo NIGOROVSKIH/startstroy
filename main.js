@@ -58,7 +58,7 @@ document.querySelector('.centered-image img').addEventListener('click', function
         }, localClickTimeout ? parseInt(localClickTimeout) : 10000);
 
         var boostPurchased = localStorage.getItem('boostPurchased');
-        var increment = boostPurchased === 'true' ? 50.00500 : 0.00100;
+        var increment = boostPurchased === 'true' ? 0.00500 : 0.00100;
 
         var progressBarContainer = document.querySelector('.progress-bar-container');
         progressBarContainer.classList.remove('hidden');
