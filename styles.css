@@ -17,6 +17,11 @@ body {
     touch-action: manipulation;
 }
 
+html, body {
+    overflow: hidden;
+}
+
+
 /* Стили для контейнера изображения */
 .balance-image-container {
     position: absolute;
